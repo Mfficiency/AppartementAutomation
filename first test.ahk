@@ -15,15 +15,27 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	#c::
 	st = 300
 	{
-		Sleep, %st%
-		send, Hello
-		
+		FileRead, OutputVar, testfile.txt
+        Sleep, %st%
+		send, %OutputVar%
+		first line
 	}		
-		
+    ; Loop
+    ; {
+    ;     FileReadLine, line, C:\My Documents\ContactList.txt, %A_Index%
+    ;     if ErrorLevel
+    ;         break
+    ;     MsgBox, 4, , Line #%A_Index% is "%line%".  Continue?
+    ;     IfMsgBox, No
+    ;         return
+    ; }
+    ; MsgBox, The end of the file has been reached or there was a problem.
+    ; return
 		
 	ExitApp
 	;return
 			
+        
 }
 
 	
