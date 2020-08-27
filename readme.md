@@ -1,5 +1,5 @@
 ## why appartement automation
-appartement automation is created to automatically prepare a folder to send to the agency for renting an appartement
+appartement automation is created to automatically prepare a folder to send to the agency for renting an appartement.
 
 ## prep
 in the same directory as your exe/ahk file, create:
@@ -12,4 +12,4 @@ in the same directory as your exe/ahk file, create:
 - first line: the name of the dossier
 - second line: the full name/addres of the appartement
 
-you can now run the script
+you can now run the script.
