@@ -12,7 +12,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
     
 }
 { ; =================   ==================
-    #c::
+    
         ; init
         st = 300
         templfolder:="text"
